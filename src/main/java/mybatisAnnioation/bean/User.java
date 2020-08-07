@@ -1,0 +1,41 @@
+package mybatisAnnioation.bean;
+
+import jdk.nashorn.internal.objects.annotations.Setter;
+
+/**
+ * @program: XMind
+ * @description
+ * @author: yihang
+ * @create: 2020-07-31 21:38
+ **/
+public class User {
+     private Integer id;
+    private String username;
+
+
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public String getUsername() {
+        return username;
+    }
+
+    public void setUsername(String username) {
+        this.username = username;
+    }
+
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "id=" + id +
+                ", username='" + username + '\'' +
+                '}';
+    }
+}
